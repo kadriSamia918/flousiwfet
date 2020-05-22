@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/colorAccent"
+
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/achat"
+        android:layout_marginTop="150dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="produit"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/prix"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="montant"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="ajouter"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:background="#F87878"/>
+
+
+</LinearLayout>
